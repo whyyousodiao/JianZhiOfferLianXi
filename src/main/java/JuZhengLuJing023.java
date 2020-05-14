@@ -18,9 +18,3 @@ public class JuZhengLuJing023 {
         return pre;
     }
 }
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
