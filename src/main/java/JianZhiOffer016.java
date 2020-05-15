@@ -4,7 +4,7 @@
         来源：力扣（LeetCode）
         链接：https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof
 */
-public class JuZhengLuJing016 {
+public class JianZhiOffer016 {
     public double myPow(double x, int n) {
         if(x == 0)return 0;
         double res = 1.0;

@@ -1,4 +1,4 @@
-public class JuZhengLuJing023 {
+public class JianZhiOffer023 {
     public ListNode reverseList(ListNode head) {
         ListNode pre = new ListNode(0);
         ListNode rear = new ListNode(0);

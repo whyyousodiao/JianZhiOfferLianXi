@@ -1,4 +1,4 @@
-public class JuZhengLuJing012 {
+public class JianZhiOffer012 {
     public boolean exist(char[][] board, String word) {
         char[] wordChar = word.toCharArray();
         int lengthOfWord = wordChar.length;
