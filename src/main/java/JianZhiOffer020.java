@@ -44,7 +44,7 @@ class Solution20 {
         transArray[0] = 0;
         int index =1;
         while(index<=len){
-            transArray[index]=trans[transArray[index-1]][(int)map.get(getC(s.charAt(index-1)))];
+            transArray[index]=trans[transArray[index-1]][(Integer) map.get(getC(s.charAt(index-1)))];
            if(transArray[index]==-1){
                return false;
            }
