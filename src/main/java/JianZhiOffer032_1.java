@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class JianZhiOffer032 {
+public class JianZhiOffer032_1 {
 
 
     public int[] levelOrder(TreeNode root) {
