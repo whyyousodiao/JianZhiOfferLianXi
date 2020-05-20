@@ -15,7 +15,6 @@ public class JianZhiOffer035 {
             head = node.next;
         }
         head = htmp;
-        res =head.next;
         while(head != null){
             tmp = head.next;
             if(head.random!=null){
@@ -27,15 +26,18 @@ public class JianZhiOffer035 {
 
         }
         head = htmp;
+        Node cloneNode = head.next;
+        Node cloneHead = cloneNode;
+        head.next = cloneNode.next;
+        head = head.next;
         while(head!=null){
-            tmp = head.next;
-            head.next = tmp.next;
+            cloneNode.next = head.next;
+            head.next = head.next.next;
             head = head.next;
-            tmp.next = head.next;
-
+            cloneNode = cloneNode.next;
         }
+        return cloneHead;
 
-        return res;
     }
 
 
