@@ -1,3 +1,5 @@
+package jianZhiOffer;
+
 public class JianZhiOffer023 {
     public ListNode reverseList(ListNode head) {
         ListNode pre = new ListNode(0);

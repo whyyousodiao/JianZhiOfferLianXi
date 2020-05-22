@@ -1,3 +1,5 @@
+package jianZhiOffer;
+
 public class JianZhiOffer024 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(0);

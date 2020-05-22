@@ -1,3 +1,5 @@
+package jianZhiOffer;
+
 public class JianZhiOffer015 {
     /*public int hammingWeight(int n) {
         int res =0;

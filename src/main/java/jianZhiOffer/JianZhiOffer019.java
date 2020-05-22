@@ -1,3 +1,5 @@
+package jianZhiOffer;
+
 public class JianZhiOffer019 {
     public static void main(String[] args) {
         /*JianZhiOffer005 jianZhiOffer005 = new   JianZhiOffer005();

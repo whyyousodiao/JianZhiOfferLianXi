@@ -1,3 +1,5 @@
+package jianZhiOffer;
+
 public class JianZhiOffer035 {
 
     public Node copyRandomList(Node head) {

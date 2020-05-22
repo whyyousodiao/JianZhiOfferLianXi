@@ -1,3 +1,5 @@
+package jianZhiOffer;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -36,7 +38,7 @@ public class JianZhiOffer034 {
         return result;
     }
 
-    public void recur(TreeNode node,int num){
+    public void recur(TreeNode node, int num){
         if(node==null)return;
         path.add(node.val);
         num-=node.val;

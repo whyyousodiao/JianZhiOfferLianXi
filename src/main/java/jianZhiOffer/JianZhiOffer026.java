@@ -1,3 +1,5 @@
+package jianZhiOffer;
+
 public class JianZhiOffer026 {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
         if(A == null || B==null){

@@ -1,3 +1,7 @@
+package jianZhiOffer;
+
+import jianZhiOffer.ListNode;
+
 public class JianZhiOffer022 {
 }
 
