@@ -1,17 +1,31 @@
 package jianZhiOffer;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class JianZhiOffer037 {
     // Encodes a tree to a single string.
-    Queue<Node> queue = new LinkedList<>();
+    Queue<TreeNode> queue = new LinkedList<>();
+    List<Integer> list = new LinkedList<>();
     public String serialize(TreeNode root) {
-        return null;
+        queue.add(root);
+        while(!queue.isEmpty()){
+            TreeNode node = queue.remove();
+            list.add(node.val);
+            queue.add(node.left);
+            queue.add(node.right);
+        }
+        return list.toString();
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
+
         return null;
     }
+
+
+
+
+
+
 }
