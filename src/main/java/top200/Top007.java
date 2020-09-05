@@ -1,5 +1,8 @@
 package top200;
 
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
 public class Top007 {
     public int reverse(int x) {
         boolean flag = false;
