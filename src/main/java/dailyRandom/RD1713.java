@@ -3,7 +3,7 @@ package dailyRandom;
 import java.util.Arrays;
 
 public class RD1713 {
-    public int respace(String[] dictionary, String sentence) {
+    /*public int respace(String[] dictionary, String sentence) {
         Tree root = new Tree();
         for(String word:dictionary){
             root.add(word);
@@ -39,9 +39,10 @@ public class RD1713 {
 
 
         System.out.println(rd1713.respace(dictionary,sentence));
-    }
+    }*/
 }
 
+/*
 class Tree{
     public Tree[] next;
     boolean isEnd;
@@ -61,4 +62,4 @@ class Tree{
         }
         treePos.isEnd = true;
     }
-}
+}*/
